@@ -12,6 +12,11 @@ main { max-width: 900px; margin: 2rem auto; padding: 0 2rem; }
 section { margin-bottom: 3rem; }
 h2 { color: #0C2461; border-bottom: 3px solid #1565C0; padding-bottom: 0.5rem;
 margin-bottom: 1rem; }
+.grille-projets { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.carte-projet { background: white; border: 1px solid #DDD;
+border-top: 4px solid #1565C0; border-radius: 8px; padding: 1.5rem; flex: 1; min-
+width: 250px; }
+.carte-projet h3 { color: #0C2461; margin-bottom: 0.5rem; }
 /* ── FOOTER ── */
 footer { background: #0C2461; color: white; text-align: center; padding: 1.5rem;
 margin-top: 3rem; }
